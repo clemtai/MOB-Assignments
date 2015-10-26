@@ -53,14 +53,14 @@ class FirstViewController: UIViewController {
             }
         }
         
-        if (age > 18){
+        if (age >= 18){
             if (age < 21){
                 print("You can drive and vote")
                 labelThree.text = "You can drive and vote."
             }
         }
         
-        if (age > 21){
+        if (age >= 21){
             print("You can drive, vote and drink (but not at the same time!)")
             labelThree.text = "You can drive, vote and drink (but not at the same time!)"
         }
